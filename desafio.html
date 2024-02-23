@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>CADASTRO FORNECEDOR/PRODUTO</h1>
-    <form class="float-container clearfix">
+    <form class="float-container clearfix"> <!-- Primeiro formulário 'Dados do Fornecedor' -->
         <h1>Dados do fornecedor</h1>
 
             <div class="float-child">
@@ -74,70 +74,42 @@
             </form>
 
 
-            <form class="float-container-2 clearfix">
-                <h1>Anexos</h1>
+            <form class="float-container-2 clearfix"> <!-- Segundo formulário 'Produtos' -->
+                <h1>Produtos</h1>
         
                     <div class="float-child">
         
-                    <p> <label for="razao-social">Razão Social:</label> <br> <input type="text" id="razaosocial" size="50"> </p>
-                    <p> <label for="nome-fantasia">Nome Fantasia:</label> <br> <input type="text" name="nome fantasia" id="nomefantasia" size="50"> </p>
-                    <p> <label for="cep">Cep:</label> <br> <input type="number" name="cep" id="cep"> </p>
-                    <p> <label for="endereco">Endereço:</label> <br> <input type="text" id="endereco" size="50"> </p>
+                    <p> </p>
                     
                     </div>
-                    
-                    <div class="float-child">
-                    
-                    <p> <label for="cnpj">CNPJ:</label> <br> <input type="number" name="cnpj" id="cnpj"> </p>
-                    <p> <label for="insc-est">Inscrição Estadual:</label> <br> <input type="number" name="insc-est" id="insc-est"> </p>
-                    <p> <label for="insc-mun">Inscrição Municipal:</label> <br> <input type="number" name="insc-mun" id="insc-mun"> </p>
-                    <p> <label for="numero">Número:</label> <br> <input type="number" name="numero" id="numero"> </p>
-        
+
+                    <div class="greenbutton-1">
+                    <p> <input type="button" value="Adicionar produto"> </p>
                     </div>
-        
-                    <div class="float-child-2">
-        
-                    <p> <label for="complemento">Complemento:</label> <br> <input type="text" name="complemento" id="complemento" size="100"> </p>
-                    
-                    </div>
-        
-                    <div class="float-child-3">
-        
-                    <p> <label for="bairro">Bairro:</label> <br> <input type="text" name="bairro" id="bairro"> </p>
-        
-                    </div>
-        
-                    <div class="float-child-4">
-        
-                    <p> <label for="municipio">Município:</label> <br> <input type="text" name="municipio" id="municipio"> </p>
-        
-                    </div>
-                    
-                    <div class="float-child-5">
-        
-                    <p> <label for="estado">Estado:</label> <br> <input type="text" name="municipio" id="municipio"></p>
-        
-                    </div>
-        
-                    <div class="float-child-3">
-        
-                        <p> <label for="nomecontato">Nome da pessoa de contato:</label> <br> <input type="text" name="nomecontato" id="nomecontato" size="35"> </p>
-            
-                        </div>
-            
-                        <div class="float-child-4">
-            
-                        <p> <label for="telefone">Telefone:</label> <br> <input type="number" name="telefone" id="telefone"> </p>
-            
-                        </div>
-                        
-                        <div class="float-child-5">
-            
-                        <p> <label for="email">Email:</label> <br> <input type="email" name="email" id="email"> </p>
-            
-                        </div>
         
                     </form>
 
+                    <form class="float-container-3 clearfix"> <!-- Terceiro formulário 'Anexos' -->
+                        <h1>Anexos</h1>
+                
+                            <div class="float-child">
+                            
+
+                            <h2>Itens</h2>
+
+                            <p><img src="/imagens/trash_transparency.png" alt="lixeira"> <img src="/imagens/eye_transparency.png" alt="lixeira"> <strong>Documento anexo 1</strong></p>
+                            <p><img src="/imagens/trash_transparency.png" alt="lixeira"> <img src="/imagens/eye_transparency.png" alt="lixeira"> <strong>Documento anexo 2</strong></p>
+                            
+                            </div>
+                            
+                            <div class="greenbutton-2">
+                            <p> <input type="button" value="Incluir Anexo"> </p>
+                            </div>
+                
+                            </form>
+                            
+                            <div class="greenbutton-3">
+                            <p> <input type="button" value="Salvar Fornecedor"> </p>
+                            </div>
 </body>
 </html>
