@@ -8,39 +8,70 @@
 </head>
 <body>
     <h1>CADASTRO FORNECEDOR/PRODUTO</h1>
-    <div class="float-container clearfix">
+    <form class="float-container clearfix">
         <h1>Dados do fornecedor</h1>
 
             <div class="float-child">
 
-            <p>Razão Social:</p> <p><input type="text" id="razaosocial"></p>
-            <p>Nome Fantasia:</p> <p><input type="text" name="nome fantasia" id="nomefantasia"></p>
-            <p>Cep:</p> <p><input type="number" name="cep" id="cep"></p>
-            <p>Endereço:</p> <p><input type="text" id="endereco"></p>
+            <p> <label for="razao-social">Razão Social:</label> <br> <input type="text" id="razaosocial" size="50"> </p>
+            <p> <label for="nome-fantasia">Nome Fantasia:</label> <br> <input type="text" name="nome fantasia" id="nomefantasia" size="50"> </p>
+            <p> <label for="cep">Cep:</label> <br> <input type="number" name="cep" id="cep"> </p>
+            <p> <label for="endereco">Endereço:</label> <br> <input type="text" id="endereco" size="50"> </p>
             
             </div>
             
             <div class="float-child">
             
-            <p>CNPJ:</p> <p><input type="number" name="cnpj" id="cnpj"></p>
-            <p>Inscrição Estadual:</p> <p><input type="number" name="insc-est" id="insc-est"></p>
-            <p>Inscrição Municipal:</p> <p><input type="number" name="insc-mun" id="insc-mun"></p>
-            <p>Número:</p> <p><input type="number" name="numero" id="numero"></p>
+            <p> <label for="cnpj">CNPJ:</label> <br> <input type="number" name="cnpj" id="cnpj"> </p>
+            <p> <label for="insc-est">Inscrição Estadual:</label> <br> <input type="number" name="insc-est" id="insc-est"> </p>
+            <p> <label for="insc-mun">Inscrição Municipal:</label> <br> <input type="number" name="insc-mun" id="insc-mun"> </p>
+            <p> <label for="numero">Número:</label> <br> <input type="number" name="numero" id="numero"> </p>
 
             </div>
-            <p>Complemento:</p> <p><input type="text" name="complemento" id="complemento"></p>
-    </div>
 
-            <!-- 
-            <p>
-                Bairro: <input type="text" name="bairro" id="bairro">
-                Município: <input type="text" name="municipio" id="municipio">
-                Estado: <input type="text" name="municipio" id="municipio">
-            </p>
-            <p>
-                Nome da pessoa de contato: <input type="text" name="nomecontato" id="nomecontato">
-                Telefone: <input type="number" name="telefone" id="telefone">
-                Email: <input type="email" name="email" id="email">
-            </p> -->
+            <div class="float-child-2">
+
+            <p> <label for="complemento">Complemento:</label> <br> <input type="text" name="complemento" id="complemento" size="100"> </p>
+            
+            </div>
+
+            <div class="float-child-3">
+
+            <p> <label for="bairro">Bairro:</label> <br> <input type="text" name="bairro" id="bairro"> </p>
+
+            </div>
+
+            <div class="float-child-4">
+
+            <p> <label for="municipio">Município:</label> <br> <input type="text" name="municipio" id="municipio"> </p>
+
+            </div>
+            
+            <div class="float-child-5">
+
+            <p> <label for="estado">Estado:</label> <br> <input type="text" name="municipio" id="municipio"></p>
+
+            </div>
+
+            <div class="float-child-3">
+
+                <p> <label for="nomecontato">Nome da pessoa de contato:</label> <br> <input type="text" name="nomecontato" id="nomecontato" size="35"> </p>
+    
+                </div>
+    
+                <div class="float-child-4">
+    
+                <p> <label for="telefone">Telefone:</label> <br> <input type="number" name="telefone" id="telefone"> </p>
+    
+                </div>
+                
+                <div class="float-child-5">
+    
+                <p> <label for="email">Email:</label> <br> <input type="email" name="email" id="email"> </p>
+    
+                </div>
+
+            </form>
+
 </body>
 </html>

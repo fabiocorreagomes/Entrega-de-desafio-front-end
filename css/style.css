@@ -18,9 +18,11 @@ h1 {
     text-align: left;
     color: white;
     background-color: #0085b2;
-    padding-left: 3px;
+    padding-left: 11px;
     margin-top: -11px;
     margin-left: -22px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
 }
 
 .float-container p {
@@ -30,6 +32,38 @@ h1 {
 .float-child {
     margin-top: -33px;
     width: 45%;
+    float: left;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+.float-child-2 {
+    margin-top: -33px;
+    width: 95%;
+    float: left;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+.float-child-3 {
+    margin-top: -33px;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+.float-child-4 {
+    margin-top: -33px;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+.float-child-5 {
+    margin-top: -33px;
+    width: 25%;
     float: left;
     padding: 20px;
     /*border: 2px solid red;*/
