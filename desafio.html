@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro do Fornecedor</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Cadastro do Fornecedor/Produto</h1>
-    <section>
-        <h1>Dados do Fornecedor</h1>
-        <p>Razão Social</p>
-    </section>
+    <h1>CADASTRO FORNECEDOR/PRODUTO</h1>
+    <div class="float-container clearfix">
+        <h1>Dados do fornecedor</h1>
+
+            <div class="float-child">
+
+            <p>Razão Social:</p> <p><input type="text" id="razaosocial"></p>
+            <p>Nome Fantasia:</p> <p><input type="text" name="nome fantasia" id="nomefantasia"></p>
+            <p>Cep:</p> <p><input type="number" name="cep" id="cep"></p>
+            <p>Endereço:</p> <p><input type="text" id="endereco"></p>
+            
+            </div>
+            
+            <div class="float-child">
+            
+            <p>CNPJ:</p> <p><input type="number" name="cnpj" id="cnpj"></p>
+            <p>Inscrição Estadual:</p> <p><input type="number" name="insc-est" id="insc-est"></p>
+            <p>Inscrição Municipal:</p> <p><input type="number" name="insc-mun" id="insc-mun"></p>
+            <p>Número:</p> <p><input type="number" name="numero" id="numero"></p>
+
+            </div>
+            <p>Complemento:</p> <p><input type="text" name="complemento" id="complemento"></p>
+    </div>
+
+            <!-- 
+            <p>
+                Bairro: <input type="text" name="bairro" id="bairro">
+                Município: <input type="text" name="municipio" id="municipio">
+                Estado: <input type="text" name="municipio" id="municipio">
+            </p>
+            <p>
+                Nome da pessoa de contato: <input type="text" name="nomecontato" id="nomecontato">
+                Telefone: <input type="number" name="telefone" id="telefone">
+                Email: <input type="email" name="email" id="email">
+            </p> -->
 </body>
 </html>

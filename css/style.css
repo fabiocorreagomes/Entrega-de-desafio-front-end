@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.float-container {
+    border: 1px solid #000000;
+    padding-left: 22px;
+    font-size: 22px;
+    color: black;
+    width: 1000px;
+    margin: auto;
+    border-style: solid;
+    border-radius: 11px;
+}
+
+.float-container h1 {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    background-color: #0085b2;
+    padding-left: 3px;
+    margin-top: -11px;
+    margin-left: -22px;
+}
+
+.float-container p {
+    padding-left: 20px;
+}
+
+.float-child {
+    margin-top: -33px;
+    width: 45%;
+    float: left;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
