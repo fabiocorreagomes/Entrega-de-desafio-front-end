@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 22px;
+}
+
 .float-container {
     border: 1px solid #000000;
     padding-left: 22px;
@@ -91,6 +95,36 @@ h1 {
     margin-left: -22px;
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
+}
+
+.float-trash-1 {
+    width: 20%;
+    float: left;
+    padding: 0px;
+    border: 2px solid red;
+}
+
+.float-produto-1 {
+    margin-top: -33px;
+    width: 75%;
+    float: left;
+    padding: 0px;
+    border: 2px solid red;
+}
+
+.float-trash-2 {
+    width: 20%;
+    float: left;
+    padding: 0px;
+    border: 2px solid red;
+}
+
+.float-produto-2 {
+    margin-top: -33px;
+    width: 75%;
+    float: left;
+    padding: 0px;
+    border: 2px solid red;
 }
 
 .float-container-3 {
