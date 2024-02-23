@@ -117,6 +117,19 @@ h1 {
     border-top-right-radius: 11px;
 }
 
+.paragraph-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .paragraph {
+    margin: 0;
+  }
+  
+  .centered-image {
+    vertical-align: middle;
+  }  
+
 .greenbutton-1 {
     margin-top: 33px;
     text-align: center;
