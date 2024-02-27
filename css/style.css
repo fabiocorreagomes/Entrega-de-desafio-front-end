@@ -101,7 +101,7 @@ h2 {
     width: 7%;
     float: left;
     padding: 0px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .float-produto-1 {
@@ -109,7 +109,8 @@ h2 {
     width: 15%;
     float: left;
     padding: 0px;
-    border: 2px solid red;
+    text-align: center;
+    /*border: 2px solid red;*/
 }
 
 .float-produto-1-descricao-1 {
@@ -117,21 +118,21 @@ h2 {
     width: 75%;
     float: left;
     padding-right: 9px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 .float-produto-1-descricao-2 {
     margin-top: -33px;
     width: 18%;
     float: left;
     padding-right: 9px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .float-trash-2 {
     width: 7%;
     float: left;
     padding: 0px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .float-produto-2 {
@@ -139,7 +140,8 @@ h2 {
     width: 15%;
     float: left;
     padding: 0px;
-    border: 2px solid red;
+    text-align: center;
+    /*border: 2px solid red;*/
 }
 
 .float-produto-2-descricao-1 {
@@ -147,14 +149,14 @@ h2 {
     width: 75%;
     float: left;
     padding-right: 9px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 .float-produto-2-descricao-2 {
     margin-top: -33px;
     width: 18%;
     float: left;
     padding-right: 9px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .float-container-3 {
