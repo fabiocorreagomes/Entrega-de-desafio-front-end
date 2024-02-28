@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+input {
+    border-radius: 9px;
+}
+
 .dados-do-fornecedor {
     border: 1px solid #000000;
     padding-left: 22px;
@@ -56,7 +60,7 @@ h1 {
 .produtos h2 {
     margin-top: 22px;
     font-size: 22px;
-    text-align: left;
+    text-align: center;
 }
 
 .produtos .trash {
@@ -73,4 +77,110 @@ h1 {
     justify-content: center;
     height: 20vh;
     /* border: 2px solid black; */
+}
+
+.produtos .btn {
+    background-color: #019e0f;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.produtos .btn:hover {
+    background-color: #006408;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.anexos {
+    border: 1px solid #000000;
+    padding-left: 22px;
+    padding-bottom: 33px;
+    font-size: 22px;
+    color: black;
+    width: 1200px;
+    margin: auto;
+    margin-top: 33px;
+    border-style: solid;
+    border-radius: 11px;
+    margin-bottom: 33px;
+}
+
+.anexos h1 {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    background-color: #0085b2;
+    padding-left: 11px;
+    margin-top: -11px;
+    margin-left: -22px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.anexos .container {
+    border: 1px solid black;
+    border-radius: 11px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.anexos h2 {
+    margin-top: -18px;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 11px;
+    text-align: center;
+    width: 9%;
+}
+
+
+
+.anexos p {
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 3vh;
+}
+
+.anexos .trash {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 7vh;
+}
+
+.anexos .eye {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 7vh;
+}
+
+.anexos .btn {
+    background-color: #019e0f;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.anexos .btn:hover {
+    background-color: #006408;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.d-grid .btn {
+    background-color: #019e0f;
+    font-size: 20px;
+    margin: auto;
+}
+
+.d-grid .btn:hover {
+    background-color: #006408;
+    font-size: 20px;
+    margin: auto;
 }
